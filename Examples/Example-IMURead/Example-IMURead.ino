@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  device.measureRollPitch(0);
+  device.measureRollPitch(1);
   //device.testLed();
 }
 

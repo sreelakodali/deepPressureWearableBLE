@@ -541,7 +541,7 @@ void DeepPressureWearableBLE::initializeSystem(bool c) {
 }
 
 bool DeepPressureWearableBLE::initializeSerial() {
-    Serial.begin(4608000);  
+    Serial.begin(19200);  
     Serial.flush();
     while (!Serial);
     return (true); 
